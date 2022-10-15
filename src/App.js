@@ -14,8 +14,8 @@ import Navbar from "./components/Navbar";
 const App = () => (
   <div>
     <Navbar />
-    {/* <Header />
-    <AboutUs />
+    <Header />
+    {/* <AboutUs />
     <SpecialMenu />
     <Chef />
     <Intro />
