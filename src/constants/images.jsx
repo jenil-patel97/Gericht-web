@@ -6,6 +6,7 @@ import gallery02 from '../assets/gallery02.png';
 import gallery03 from '../assets/gallery03.png';
 import gallery04 from '../assets/gallery04.png';
 import knife from '../assets/knife.png';
+import line from '../assets/line.png'
 import logo from '../assets/logo.png';
 import menu from '../assets/menu.png';
 import overlaybg from '../assets/overlaybg.png';
@@ -21,6 +22,7 @@ import sign from '../assets/sign.png';
 import quote from '../assets/quote.png';
 import gericht from '../assets/gericht.png';
 
+// eslint-disable-next-line import/no-anonymous-default-export
 export default {
   bg,
   chef,
@@ -30,6 +32,7 @@ export default {
   gallery03,
   gallery04,
   knife,
+  line,
   logo,
   menu,
   overlaybg,
