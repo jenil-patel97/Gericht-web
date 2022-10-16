@@ -15,7 +15,7 @@ const Navbar = () => {
         <img
           src={images.gericht}
           alt="logo"
-          className=" md:w-[150px] w-[120px]"
+          className=" lg:w-[150px] lg:ml-5 w-[120px]"
         />
       </div>
 
