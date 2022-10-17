@@ -7,15 +7,15 @@ const MenuItem = ({ title, price, tags }) => (
         <p className="text-[#e2c55a] text-[25px] font-base">{title}</p>
       </div>
 
-      <div className="w-[90px] h-[1px] bg-[#e2c55a] mx-2" />
+      <div className="lg:w-[120px] w-[100px] h-[1px] bg-[#e2c55a] mr-4 lg:mr-6" />
 
       <div className=" mr-6 text-[23px]">
         <p className="font-base">{price}</p>
       </div>
     </div>
 
-    <div className="lg:-ml-[110px]">
-      <p className="text-[#AAAAAA] text-[17px] font-base">{tags}</p>
+    <div className="lg:-ml-[90px]">
+      <p className="text-[#AAAAAA] text-[17px] mt-1 font-base">{tags}</p>
     </div>
   </div>
 );
