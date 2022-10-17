@@ -32,7 +32,7 @@ const AboutUs = () => (
       <img
         src={images.knife}
         alt="knife"
-        className="w-[50px] h-[390px] -mt-[330px] ml-[130px] lg:w-[64px] lg:h-[520px] lg:ml-[290px] lg:-mt-[480px] absolute"
+        className="w-[50px] h-[390px] -mt-[330px] ml-[130px] lg:w-[64px] lg:h-[520px] lg:ml-[290px] lg:-mt-[450px] absolute"
       />
     </div>
   </div>

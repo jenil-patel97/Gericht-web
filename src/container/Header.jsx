@@ -7,10 +7,11 @@ const Header = () => {
   return (
     <div
       name="header"
-      className="bg-[#0c0c0c] items-center lg:grid grid-cols-2 h-[120vh] px-[4rem] py-[150px]"
+      className="bg-[#0c0c0c] items-center lg:grid grid-cols-2 h-[120vh] px-[4rem] "
     >
       <div className="lg:ml-5">
         <SubHeading title="Chase the new flavour" />
+        <img src={images.spoon} alt="spoon" className="ml-2 mb-1 lg:-mt-[110px] -mt-[110px]" />
         <h1 className="lg:text-[90px] text-[55px] font-base font-bold ml-3 -mt-2 text-[#DCCA87] cursor-default">
           The Key To <br /> Fine Dining
         </h1>
@@ -28,7 +29,7 @@ const Header = () => {
         <img
           src={images.welcome}
           alt="header"
-          className="lg:w-[70%] lg:-mt-[130px] -mt-8 lg:ml-[80px]"
+          className="lg:w-[70%] lg:-mt-[80px] -mt-8 lg:ml-[80px]"
         />
       </div>
     </div>

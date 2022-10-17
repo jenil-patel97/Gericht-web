@@ -10,7 +10,7 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav);
 
   return (
-    <nav className="fixed w-full h-[80px] flex justify-between items-center bg-[#0C0C0C] px-[1rem] py-[1rem]">
+    <nav className="lg:fixed w-full h-[80px] flex justify-between items-center bg-[#0C0C0C] px-[1rem] py-[1rem]">
       <div>
         <img
           src={images.gericht}
