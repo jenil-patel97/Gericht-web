@@ -19,7 +19,9 @@ const SpecialMenu = () => (
 
     <div name="menu" className="lg:grid grid-cols-3">
       <div className="mt-8">
-        <p className="font-base lg:text-[45px] text-[35px] cursor-default">Wine & Beer</p>
+        <p className="font-base lg:text-[45px] text-[35px] cursor-default">
+          Wine & Beer
+        </p>
         {data.wines.map((wine, index) => (
           <MenuItem
             key={wine.title + index}
@@ -37,7 +39,9 @@ const SpecialMenu = () => (
         />
       </div>
       <div className="mt-10 bg-[#0c0c0c]">
-        <p className="font-base lg:text-[45px] text-[35px] cursor-default">Cocktails</p>
+        <p className="font-base lg:text-[45px] text-[35px] cursor-default">
+          Cocktails
+        </p>
         {data.cocktails.map((cocktail, index) => (
           <MenuItem
             key={cocktail.title + index}
@@ -49,7 +53,7 @@ const SpecialMenu = () => (
       </div>
     </div>
 
-    <button className="text-black bg-[#e2c55a] hover:scale-110 duration-500 lg:mt-8 mt-[40px] mb-[150px] hover:bg-[#e2c046] lg:ml-3 ml-9 text-sm lg:text-[18px] px-8 py-2 font-base font-bold">
+    <button className="text-black bg-[#e2c55a] hover:scale-110 duration-500 lg:mt-8 mt-[40px] mb-[150px] hover:bg-[#e2c046] lg:ml-3 ml-3 text-sm lg:text-[18px] px-8 py-2 font-base font-bold">
       View More
     </button>
   </div>
