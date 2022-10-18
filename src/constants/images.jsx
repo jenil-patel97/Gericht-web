@@ -1,10 +1,11 @@
 import bg from "../assets/bg.png";
 import chef from "../assets/chef.png";
 import G from "../assets/G.png";
-import gallery01 from "../assets/gallery01.png";
+import pizza from "../assets/pizza.png";
 import gallery02 from "../assets/gallery02.png";
-import gallery03 from "../assets/gallery03.png";
+import burger from "../assets/burger.png";
 import gallery04 from "../assets/gallery04.png";
+import sandwich from '../assets/sandwitch.png'
 import knife from "../assets/knife.png";
 import line from "../assets/line.png";
 import spoon from "../assets/spoon.svg";
@@ -19,10 +20,11 @@ export default {
   bg,
   chef,
   G,
-  gallery01,
+  pizza,
   gallery02,
-  gallery03,
+  burger,
   gallery04,
+  sandwich,
   knife,
   line,
   spoon,
