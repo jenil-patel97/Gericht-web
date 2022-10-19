@@ -22,7 +22,7 @@ const App = () => (
     <Gallery />
     <Contact />
     <Newsletter/>
-    {/* <Footer /> */}
+    <Footer />
   </div>
 );
 
