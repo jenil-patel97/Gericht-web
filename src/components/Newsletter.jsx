@@ -5,7 +5,7 @@ import { images } from "../constants";
 const Newsletter = () => (
   <div className="bg-[#0c0c0c] h-[55vh] justify-center items-center lg:px-[250px] lg:py-7 py-[60px]">
     <div className="border border-[#e2c55a] lg:h-[290px] h-[320px] lg:py-3 py-5">
-      <p className="text-[#cfcdcd] font-base font-bold lg:text-[25px] text-[22px] text-center">
+      <p className="text-[#cfcdcd] font-base font-bold lg:text-[25px] text-[22px] text-center cursor-default">
         Newsletter
       </p>
       <img
@@ -13,10 +13,10 @@ const Newsletter = () => (
         alt="spoon"
         className="lg:ml-[400px] ml-[178px] mt-1"
       />
-      <p className="text-[#e2c55a] lg:text-[64px] text-[31px] font-base text-center">
+      <p className="text-[#e2c55a] lg:text-[64px] text-[31px] font-base text-center cursor-default">
         Subscribe to Our Newsletter
       </p>
-      <p className="text-[#cfcdcd] text-[22px] font-base text-center mt-4">
+      <p className="text-[#cfcdcd] text-[22px] font-base text-center mt-4 lg:mt-2 cursor-default">
         And never miss latest Updates!
       </p>
       <div className="text-center lg:-mt-2 mt-4">
