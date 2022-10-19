@@ -6,7 +6,7 @@ import MenuItem from "../components/MenuItem";
 import { images, data } from "../constants";
 
 const SpecialMenu = () => (
-  <div className="text-white bg-[#0c0c0c] text-center h-[220vh] lg:h-[180vh] w-full">
+  <div name="menu" className="text-white bg-[#0c0c0c] text-center h-[220vh] lg:h-[180vh] w-full">
     <SubHeading title="Menu that fits your soul" />
     <img
       src={images.spoon}

@@ -7,7 +7,7 @@ import { Carousel } from "react-responsive-carousel";
 
 const Gallery = () => {
   return (
-    <div className="lg:grid grid-cols-2 justify-center items-center bg-[#0c0c0c] py-[4rem] px-[6rem]">
+    <div name="dishes" className="lg:grid grid-cols-2 justify-center items-center bg-[#0c0c0c] py-[4rem] px-[6rem]">
       <div>
         <p className="text-white font-base lg:text-[23px] text-[33px] cursor-default">
           Cuisines

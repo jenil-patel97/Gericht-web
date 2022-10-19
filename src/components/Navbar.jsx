@@ -31,7 +31,7 @@ const Navbar = () => {
           <a href="#Menu">Menu</a>
         </li>
         <li className="hover:text-gray-200 hover:border-b-[1px] border-b-[#DCCA87]">
-          <a href="#Awards">Awards</a>
+          <a href="#Awards">Dishes</a>
         </li>
         <li className="hover:text-gray-200 hover:border-b-[1px] border-b-[#DCCA87]">
           <a href="#Contact">Contact</a>
@@ -66,7 +66,7 @@ const Navbar = () => {
         <li className="py-6 text-4xl hover:text-white">Home</li>
         <li className="py-6 text-4xl hover:text-white">About</li>
         <li className="py-6 text-4xl hover:text-white">Menu</li>
-        <li className="py-6 text-4xl hover:text-white">Awards</li>
+        <li className="py-6 text-4xl hover:text-white">Dishes</li>
         <li className="py-6 text-4xl hover:text-white">Contact</li>
       </ul>
     </nav>

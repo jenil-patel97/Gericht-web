@@ -6,7 +6,7 @@ import images from "../constants/images";
 const Header = () => {
   return (
     <div
-      name="header"
+      name="home"
       className="bg-[#0c0c0c] items-center lg:grid grid-cols-2 h-[120vh] px-[4rem] "
     >
       <div className="lg:ml-5">
