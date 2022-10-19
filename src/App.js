@@ -2,7 +2,7 @@ import React from "react";
 
 import AboutUs from "./container/AboutUs";
 import Chef from "./container/Chef";
-import FindUs from "./container/FindUs";
+import Contact from "./container/Contact";
 import Footer from "./container/Footer";
 import Gallery from "./container/Gallery";
 import Header from "./container/Header";
@@ -19,8 +19,8 @@ const App = () => (
     <Chef />
     <Intro />
     <Gallery />
-    {/* <FindUs />
-    <Footer /> */}
+    <Contact />
+    {/* <Footer /> */}
   </div>
 );
 
