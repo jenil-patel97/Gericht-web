@@ -10,6 +10,7 @@ import Intro from "./container/Intro";
 import SpecialMenu from "./container/SpecialMenu";
 import Navbar from "./components/Navbar";
 import Newsletter from "./components/Newsletter";
+import Top from "./components/Top";
 
 const App = () => (
   <div>
@@ -21,8 +22,9 @@ const App = () => (
     <Intro />
     <Gallery />
     <Contact />
-    <Newsletter/>
+    <Newsletter />
     <Footer />
+    <Top />
   </div>
 );
 
