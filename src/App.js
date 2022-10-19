@@ -9,6 +9,7 @@ import Header from "./container/Header";
 import Intro from "./container/Intro";
 import SpecialMenu from "./container/SpecialMenu";
 import Navbar from "./components/Navbar";
+import Newsletter from "./components/Newsletter";
 
 const App = () => (
   <div>
@@ -20,6 +21,7 @@ const App = () => (
     <Intro />
     <Gallery />
     <Contact />
+    <Newsletter/>
     {/* <Footer /> */}
   </div>
 );

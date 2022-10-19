@@ -29,7 +29,7 @@ const Gallery = () => {
         showStatus={false}
         showThumbs={false}
         showIndicators={false}
-        className="lg:h-[445px] lg:w-[320px] lg:ml-[200px] w-[260px] -ml-6  mt-14"
+        className="lg:h-[445px] lg:w-[320px] lg:ml-[200px] w-[260px] -ml-6  mt-14 hover:scale-105 duration-500 cursor-pointer"
       >
         <div>
           <img src={images.pizza} alt="img" />
